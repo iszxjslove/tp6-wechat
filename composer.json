@@ -1,0 +1,17 @@
+{
+    "name": "iszxjslove/tp6-wechat",
+    "description": "tp6 微信开发SDK",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "overtrue/wechat": "~4.3",
+        "topthink/framework": "^6.0.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yufu",
+            "email": "228762287@qq.com"
+        }
+    ]
+}
