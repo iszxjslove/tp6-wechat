@@ -13,5 +13,11 @@
             "name": "yufu",
             "email": "228762287@qq.com"
         }
-    ]
+    ],
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "iszxjslove\\": "src"
+        }
+    }
 }
