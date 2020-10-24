@@ -4,7 +4,7 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace iszxjslove\ThinkWechat\Behavior;
+namespace iszxjslove\Behavior;
 
 use EasyWeChat\MiniProgram\Application as MiniProgram;
 use EasyWeChat\OfficialAccount\Application as OfficialAccount;
@@ -13,7 +13,7 @@ use EasyWeChat\Payment\Application as Payment;
 use EasyWeChat\Work\Application as Work;
 use EasyWeChat\OpenWork\Application as OpenWork;
 use EasyWeChat\MicroMerchant\Application as MicroMerchant;
-use iszxjslove\ThinkWechat\CacheBridge;
+use iszxjslove\CacheBridge;
 
 class AppInit
 {

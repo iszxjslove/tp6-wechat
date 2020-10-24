@@ -4,16 +4,14 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace iszxjslove\ThinkWechat;
-
-use think\Facade as ThinkFacade;
+namespace iszxjslove;
 
 /**
  * Class Facade.
  *
  * @author overtrue <i@overtrue.me>
  */
-class Facade extends ThinkFacade
+class Facade extends \think\Facade
 {
     /**
      * 默认为 Server.

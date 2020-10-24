@@ -3,7 +3,7 @@
     "description": "tp6 微信开发SDK",
     "type": "library",
     "require": {
-        "php": ">=7.0",
+        "php": ">=7.1.0",
         "overtrue/wechat": "~4.3",
         "topthink/framework": "^6.0.0"
     },
@@ -15,9 +15,16 @@
         }
     ],
     "autoload": {
-        "files": [],
         "psr-4": {
             "iszxjslove\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "think-config": {
+            "wechat": "src/config.php"
         }
     }
 }

@@ -5,7 +5,7 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace iszxjslove\ThinkWechat;
+namespace iszxjslove;
 
 use Psr\SimpleCache\CacheInterface;
 use think\Cache;
@@ -31,7 +31,7 @@ class CacheBridge implements CacheInterface
 
     public function delete($key)
     {
-        return $this->cache->rm($key);
+        return $this->cache->delete($key);
     }
 
     public function clear()
