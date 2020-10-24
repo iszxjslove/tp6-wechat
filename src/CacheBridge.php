@@ -1,8 +1,6 @@
 <?php
 /**
  * ThinkPHP微信缓存类
- *
- * @copyright 2017-2018 耐小心
  */
 
 namespace iszxjslove;

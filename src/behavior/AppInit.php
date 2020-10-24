@@ -4,7 +4,7 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace iszxjslove\Behavior;
+namespace iszxjslove\behavior;
 
 use EasyWeChat\MiniProgram\Application as MiniProgram;
 use EasyWeChat\OfficialAccount\Application as OfficialAccount;
